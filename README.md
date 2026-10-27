@@ -1,14 +1,32 @@
 # IA·Classroom — Masterclass IA & No-Code
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Vercel](https://img.shields.io/badge/déployé_sur-Vercel-000000?logo=vercel)
-![Dépendances](https://img.shields.io/badge/dépendances-0-success)
+![Prix](https://img.shields.io/badge/apprentissage-100%25_gratuit-1baf7a)
 
-> **Se former gratuitement à l'intelligence artificielle et au no-code** : 40 modules répartis en 4 piliers, du débutant à l'avancé.
+> **Former la jeunesse aux outils qui façonnent déjà l'avenir** : 40 modules gratuits en 4 piliers, du débutant au déployeur professionnel senior.
 
-🌍 **Démo en ligne : [ia-classroom.vercel.app](https://ia-classroom.vercel.app)**
+<p align="center">
+  <a href="https://masterclass-ia-nocode.vercel.app"><img src="https://img.shields.io/badge/▶_Essayer_en_ligne-masterclass--ia--nocode-2a78d6?style=for-the-badge" alt="Essayer en ligne"></a>
+  <a href="media/demo-masterclass.mp4"><img src="https://img.shields.io/badge/🎬_Vidéo_HD-MP4-eb6834?style=for-the-badge" alt="Vidéo HD"></a>
+</p>
+
+<p align="center">
+  <img src="media/demo-masterclass.gif" alt="Démo : accueil, 4 piliers, catalogue des 40 modules, certification" width="760">
+</p>
+
+<p align="center"><sub>Démo animée. Cliquez sur <b>Vidéo HD</b> pour la version MP4, ou sur <b>Essayer en ligne</b> pour tester le site.</sub></p>
+
+### 📸 Captures d'écran
+
+<table>
+  <tr>
+    <td><img src="media/capture-1.png" alt="Accueil"></td>
+    <td><img src="media/capture-2.png" alt="Catalogue des formations"></td>
+    <td><img src="media/capture-3.png" alt="Certification"></td>
+  </tr>
+</table>
 
 ---
 
@@ -17,24 +35,23 @@
 1. [Le problème](#1-le-problème)
 2. [Ingénierie pédagogique](#2-ingénierie-pédagogique)
 3. [Le programme](#3-le-programme)
-4. [Fonctionnalités](#4-fonctionnalités)
-5. [Architecture technique](#5-architecture-technique)
-6. [Choix de conception](#6-choix-de-conception)
+4. [Parcours utilisateur](#4-parcours-utilisateur)
+5. [Modèle économique](#5-modèle-économique)
+6. [Architecture et versions](#6-architecture-et-versions)
 7. [Feuille de route](#7-feuille-de-route)
 
 ---
 
 ## 1. Le problème
 
-Les formations à l'IA sont souvent **payantes, en anglais, ou trop théoriques**. Pour un étudiant ou un professionnel francophone, notamment en Afrique, le coût et la langue sont de vraies barrières.
+Les formations à l'IA sont souvent **payantes, en anglais, ou trop théoriques**. Pour un étudiant ou un professionnel francophone, notamment en Afrique, le coût et la langue sont de vraies barrières. Pourtant, l'IA transforme déjà l'agriculture, la santé, la finance, l'éducation, le commerce et l'administration.
 
 **IA·Classroom propose** :
 
-- un parcours **100 % gratuit** (0 FCFA / 0 €) ;
-- **en français** ;
-- **structuré** : progression du débutant à l'avancé ;
-- **pratique** : chaque module se termine par un exercice concret ;
-- une **certification optionnelle** (9,99 €) pour valider ses compétences.
+- un apprentissage **100 % gratuit** (0 FCFA), en **français** ;
+- un parcours **structuré** du débutant à l'avancé ;
+- des contenus **pratiques**, avec plus de 150 heures estimées ;
+- une **certification optionnelle** pour faire reconnaître ses compétences.
 
 ---
 
@@ -46,15 +63,9 @@ Le programme applique des principes d'enseignement éprouvés, issus de ma forma
 |---|---|
 | **Progressivité** | 4 piliers de difficulté croissante, chacun s'appuyant sur le précédent |
 | **Objectifs explicites** | Chaque module annonce ce que l'apprenant saura faire à la fin |
-| **Apprentissage actif** | Un exercice pratique par module : on apprend en faisant |
-| **Ancrage dans le réel** | Le pilier 3 relie la technique aux usages business |
-| **Évaluation finale** | Certification pour valider l'ensemble du parcours |
-
-Chaque module suit la même structure, pour réduire la charge cognitive :
-
-```
-Résumé  →  Objectifs pédagogiques  →  Exercice pratique
-```
+| **Charge maîtrisée** | Durée affichée pour chaque module (de 180 à 220 min) |
+| **Ancrage dans le réel** | Cas d'usage sectoriels et pilier dédié au business |
+| **Évaluation** | Certification par pilier, avec suivi de progression (modules complétés) |
 
 ---
 
@@ -63,7 +74,7 @@ Résumé  →  Objectifs pédagogiques  →  Exercice pratique
 | Pilier | Thème | Modules | Niveau |
 |:---:|---|:---:|:---:|
 | **1** | Fondations de l'IA & Prompt Engineering | 01 – 10 | 🟢 Débutant |
-| **2** | Écosystème No-Code & Automatisation industrielle | 11 – 20 | 🟡 Intermédiaire |
+| **2** | Écosystème No-Code & Automatisation | 11 – 20 | 🟡 Intermédiaire |
 | **3** | Convergence : IA + No-Code + Business | 21 – 30 | 🟠 Intermédiaire+ |
 | **4** | Tech/Data Architecture & Futur de l'IA | 31 – 40 | 🔴 Avancé |
 
@@ -75,71 +86,64 @@ flowchart LR
     P4 --> C(("Certification"))
 ```
 
-**Exemple : module 01**, *Histoire, écosystème global et ruptures technologiques de l'IA*
-
-- Situer les grandes vagues de l'IA depuis 1950
-- Distinguer IA symbolique, machine learning et deep learning
-- Identifier les acteurs clés et leur positionnement
-- Comprendre les enjeux de souveraineté autour de l'IA
+**Exemples de modules** : anatomie d'un LLM (tokenisation, embeddings, attention) · techniques avancées de prompting (few-shot, chain-of-thought) · atténuation des biais et hallucinations · éthique, RGPD et AI Act · automatisation avec Make et Zapier · webhooks et API.
 
 ---
 
-## 4. Fonctionnalités
-
-- 📚 **Catalogue des 40 modules**, filtrable par pilier
-- 🔍 **Fiche détaillée** de chaque module dans une fenêtre modale
-- 🧭 Navigation fluide entre piliers, modules et certification
-- 📱 **Design responsive** (mobile, tablette, ordinateur) et thème sombre
-- ⚡ **Chargement quasi instantané** : aucun framework, aucune dépendance
-
----
-
-## 5. Architecture technique
-
-```
-ia-classroom/
-├── index.html        # structure : en-tête, piliers, modules, certification, à propos
-├── styles.css        # thème (variables CSS), grilles responsives, composants
-├── modules-data.js   # CONTENU : les 4 piliers et les 40 modules (données pures)
-└── app.js            # LOGIQUE : rendu dynamique, filtres, fenêtre de détail
-```
-
-| Fichier | Taille | Rôle |
-|---|---:|---|
-| `modules-data.js` | 27 Ko | Données pédagogiques |
-| `styles.css` | 8 Ko | Présentation |
-| `index.html` | 4 Ko | Structure |
-| `app.js` | 3 Ko | Comportement |
-| **Total** | **≈ 43 Ko** | Plus léger qu'une seule image classique |
+## 4. Parcours utilisateur
 
 ```mermaid
 flowchart LR
-    D[(modules-data.js<br/>PILLARS, MODULES)] --> A[app.js<br/>rendu et filtres]
-    A --> V[index.html<br/>+ styles.css]
-    U((Apprenant)) -->|clic sur un pilier ou un filtre| A
+    A[Accueil] --> B[Catalogue<br/>40 modules]
+    B --> C[Fiche module]
+    A --> D[Créer un compte<br/>gratuit]
+    D --> E[Suivi de<br/>progression]
+    E --> F[Certification<br/>par pilier]
 ```
+
+L'expérience est pensée pour être **simple** : tout le catalogue est visible sans inscription, un seul bouton mène à la création de compte, et la progression s'affiche pilier par pilier.
 
 ---
 
-## 6. Choix de conception
+## 5. Modèle économique
+
+| Offre | Prix |
+|---|---|
+| Apprentissage (40 modules) | **Gratuit, pour toujours** |
+| Certification pilier 1 ou 2 | 10 000 FCFA |
+| Certification pilier 3 | 12 000 FCFA |
+| Certification pilier 4 | 15 000 FCFA |
+
+Le savoir reste gratuit ; seule la **reconnaissance officielle** est payante. Les tarifs sont en FCFA, adaptés au public visé.
+
+---
+
+## 6. Architecture et versions
+
+| Version | Adresse | Technologie | Statut |
+|---|---|---|---|
+| **Masterclass (production)** | [masterclass-ia-nocode.vercel.app](https://masterclass-ia-nocode.vercel.app) | Next.js sur Vercel | ✅ En ligne |
+| Prototype statique | — | HTML, CSS, JavaScript vanilla (≈ 43 Ko, 0 dépendance) | Archivé |
+| Plateforme de classe | ia-classroom.vercel.app | Comptes, rôles enseignant / élève | 🚧 En développement (base de données à brancher) |
+
+**Choix de conception**
 
 | Choix | Pourquoi |
 |---|---|
-| **Séparer les données et l'affichage** | Ajouter ou corriger un module ne touche qu'à `modules-data.js`, sans risque de casser l'interface. Le contenu pourra plus tard venir d'une API ou d'une base. |
-| **JavaScript vanilla, sans framework** | Moins de 45 Ko au total : idéal pour les connexions lentes ou mobiles, fréquentes chez le public visé. |
-| **Site statique sur Vercel** | Hébergement gratuit, HTTPS et CDN mondial, rien à administrer. |
-| **Variables CSS** | Le thème (couleurs, rayons, largeurs) se modifie en un seul endroit. |
+| **Contenu séparé de l'affichage** | Ajouter ou corriger un module ne touche pas à l'interface. |
+| **Pages légères** | Idéal pour les connexions mobiles lentes, fréquentes chez le public visé. |
+| **Hébergement Vercel** | HTTPS, CDN mondial et aucun serveur à administrer. |
 
 ---
 
 ## 7. Feuille de route
 
-- [x] Catalogue complet des 40 modules et filtres par pilier
-- [x] Déploiement en production
-- [ ] Comptes apprenants et **suivi de progression**
-- [ ] Rôles **enseignant / élève** (classes, devoirs), sur le modèle de Google Classroom
-- [ ] **Quiz auto-corrigés** à la fin de chaque module
-- [ ] Application installable (**PWA**) et mode hors ligne
+- [x] Catalogue complet des 40 modules en 4 piliers
+- [x] Pages de certification par pilier
+- [x] Mise en production (Masterclass)
+- [ ] Brancher la base de données de la plateforme de classe (comptes, rôles enseignant / élève)
+- [ ] Quiz auto-corrigés à la fin de chaque module
+- [ ] Application installable (PWA) et mode hors ligne
 - [ ] Intégration à l'espace Apprentissage de [Teedaïk](https://github.com/Teede-N/teedaik-showcase)
 
 ---
